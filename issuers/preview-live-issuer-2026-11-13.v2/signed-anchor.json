@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "schema": "enzan.preview.published-issuer-anchors.v1",
+    "issuerPinSetVersion": "preview-live-issuer-2026-11-13.v2",
+    "issuers": [
+      {
+        "issuerId": "ac013ab0-d82f-40fd-bb9b-26c55a9ac20a",
+        "spkiSha256": "9a28096132540738c96ccab8269ef782e3827f349275ca01621003dc69c9c911",
+        "scope": "HISTORICAL_DOGFOOD_PREVIEW_ONLY"
+      },
+      {
+        "issuerId": "712d0095-4d6e-4d67-bef9-ec2008ba3f69",
+        "spkiSha256": "21e5789f7c6a91d025e90f1114518934366a0e781f10f391647512143f38a2c0",
+        "scope": "HISTORICAL_DOGFOOD_PREVIEW_ONLY"
+      },
+      {
+        "issuerId": "f9ba6e41-14ba-4745-b5ca-f405ee5a1f32",
+        "spkiSha256": "2fb83b849c59b7948583198cd55d54b333148594b90e9ae56e016a3e9affa6a6",
+        "scope": "LIVE_PREVIEW_KEY_PENDING_ACTIVATION"
+      }
+    ],
+    "scope": "LIVE_PREVIEW_KEY_PENDING_ACTIVATION",
+    "sourceManifestSha256": "2d03245265df90a0aecaa6b5e7e579cc8c7f7740e7d44130fcacee855bb6b9b4",
+    "issuedAt": 1794568685033,
+    "expiresAt": 1797160685033,
+    "authority": "KEY_BINDING_ONLY_NOT_ISSUER_AUTHORITY_OR_CURRENT_STATUS"
+  },
+  "signerSpkiSha256": "46859f05c986e8f9b3b9e31cafc1f3cad31d74d43d7b1d617a08c1c84fbf6769",
+  "algorithm": "Ed25519",
+  "signatureBase64": "4Ct+Qt7jWFzfihsaLNbJLQsANbH36K1IGSCkVj6l3C+rekSg3Fw8vKvYzQdywJD/el7mY8dGk4gWi6Qw3onxCA=="
+}

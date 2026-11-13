@@ -1,0 +1,59 @@
+{
+  "schema": "enzan.preview.issuer-key-anchors.v1",
+  "status": "UNSIGNED_PENDING_PUBLICATION",
+  "issuerPinSetVersion": "preview-live-issuer-2026-11-13.v2",
+  "keyFingerprint": "SHA256_OF_PUBLIC_SPKI_DER",
+  "issuerAuthority": "NOT_ESTABLISHED",
+  "currentStatus": "UNKNOWN",
+  "issuers": [
+    {
+      "issuerId": "ac013ab0-d82f-40fd-bb9b-26c55a9ac20a",
+      "spkiSha256": "9a28096132540738c96ccab8269ef782e3827f349275ca01621003dc69c9c911",
+      "scope": "HISTORICAL_DOGFOOD_PREVIEW_ONLY"
+    },
+    {
+      "issuerId": "712d0095-4d6e-4d67-bef9-ec2008ba3f69",
+      "spkiSha256": "21e5789f7c6a91d025e90f1114518934366a0e781f10f391647512143f38a2c0",
+      "scope": "HISTORICAL_DOGFOOD_PREVIEW_ONLY"
+    },
+    {
+      "issuerId": "f9ba6e41-14ba-4745-b5ca-f405ee5a1f32",
+      "spkiSha256": "2fb83b849c59b7948583198cd55d54b333148594b90e9ae56e016a3e9affa6a6",
+      "scope": "LIVE_PREVIEW_KEY_PENDING_ACTIVATION"
+    }
+  ],
+  "sourcePins": {
+    "path": "src/foundation/public-preview/receipt-url-verifier-v1.ts",
+    "sha256": "411df0388f21961fc049b3df6824328803c3934662047ad6717ec51769cbb332"
+  },
+  "sourcePublicInputs": [
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-06/public-trust.json",
+      "sha256": "1958fe57568379b22be820c81e86d61de15324c10cd069258950dacfc6e75ad0"
+    },
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-06/receipt.raw",
+      "sha256": "a69f2c8a123fe8850b6c9a4f6845637b884490bd3bfce5edd6672ddc7c79710b"
+    },
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-06/expected-publication.json",
+      "sha256": "d7290a98c2556a870193e5ae80f1ed58a1f45436ee7f487790dcddde8507b71f"
+    },
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-07/public-trust.json",
+      "sha256": "639e688771b58cac82da0b7eb05815389b319af515e1d0cda326a2f95b4d519c"
+    },
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-07/receipt.raw",
+      "sha256": "4b6e6015441fad6cde2c0559fe2471d7be19d1d913d748bf01a9906f854f0bb9"
+    },
+    {
+      "path": "docs/developer-preview/examples/root-commit-claim-2026-11-07/expected-publication.json",
+      "sha256": "e23c3a9dc2baab4a85f989a0159667d79a83ce6321bedd582575a4e77abe4bc4"
+    },
+    {
+      "path": "docs/developer-preview/issuer-anchors-v2/live-preview-public-trust.json",
+      "sha256": "4052818c92aed4b3aa9ecd6183b129aa6e20ea51a40690b18c3a354a7f9f068f"
+    }
+  ]
+}
